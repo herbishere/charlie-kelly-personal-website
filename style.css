@@ -1,0 +1,46 @@
+body {
+    background: #252839;
+}
+
+header {
+    background: #677077;
+    text-transform: uppercase;
+    padding: 15px 10px 15px 10px;
+    overflow: hidden;
+}
+
+header a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    line-height: 50px;
+}
+
+header a:hover {
+    background-color:#33383b
+}
+
+header #logo {
+    color:#f2b632;
+    font-size: 75px;
+}
+
+header #navigation-header a{
+    float:right;
+    color:#b5b5b7;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    header a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    
+    header #navigation-header a {
+      float: none;
+    }
+  }
