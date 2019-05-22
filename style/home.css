@@ -13,7 +13,7 @@
     position: relative;
 }
 
-#home-content #carousel-images-list {
+#home-content .carousel-images-list {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -37,7 +37,7 @@
     z-index: 1;
 }
 
-#home-content #carousel-navigation {
+#home-content .carousel-navigation {
     position: absolute;
     bottom: 0%;
     right: 0%;
@@ -47,18 +47,34 @@
     padding: 5px 0;
 }
 
+#home-content .carousel-navigation {
+    padding: 0 0;
+}
+
 #home-content .carousel_button_slide {
     height: 15px;
     width: 20px;
-    margin: 0 5px;
+    margin: 0 3px;
     border: 0;
     border-radius: 5px;
     background: black;
     opacity: 0.4;
 }
 
-#home-content #current-button {
+#home-content .carousel_button_slide_current {
     opacity: 0.7;
+}
+
+#home-content .button-slide-nextprev {
+    padding: 0 0;
+}
+
+#home-content .buttonNextPrev {
+    background: black;
+    opacity:0.8;
+    color:white;
+    width: 40px;
+    margin: 0 0;
 }
 
 #home-content .about-me-scrollbox {

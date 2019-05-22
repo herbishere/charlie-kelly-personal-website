@@ -21,7 +21,7 @@
     <section id="home-content">
         <div class="carousel">
             <div class="carousel-images">
-                <ul id="carousel-images-list">
+                <ul class="carousel-images-list">
                     <li id="current-image" class="carousel-images-list-member"><img class="carousel-img"
                             src="images/placeholder1.png" alt="placeholder"></li>
                     <li class="carousel-images-list-member"><img class="carousel-img" src="images/placeholder2.png"
@@ -30,10 +30,13 @@
                             alt="placeholder"></li>
                 </ul>
             </div>
-            <div id="carousel-navigation">
-                <button id="current-button" class="carousel_button_slide"></button>
-                <button class="carousel_button_slide"></button>
-                <button class="carousel_button_slide"></button>
+            <div class="carousel-navigation">
+                <div class="button-slide-selection">
+                </div>
+                <div class="button-slide-nextprev">
+                    <button id="button-prev" class="carousel_button_slide buttonNextPrev">Prev</button>
+                    <button id="button-next" class="carousel_button_slide buttonNextPrev">Next</button>
+                </div>
             </div>
         </div>
         <div class="about-me">
