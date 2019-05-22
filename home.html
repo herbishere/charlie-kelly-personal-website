@@ -4,7 +4,8 @@
 <head>
     <meta charset='UTF-8'>
     <title>Charlie Kelly - Home</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style/headerfooter.css" type="text/css">
+    <link rel="stylesheet" href="style/home.css" type="text/css">
 </head>
 
 <body>
@@ -18,22 +19,41 @@
         </nav>
     </header>
     <section id="home-content">
-        <div class="images">
-            <img src="images/placeholder.png" alt="placeholder">
+        <div class="carousel">
+            <div class="carousel-images">
+                <ul id="carousel-images-list">
+                    <li id="current-image" class="carousel-images-list-member"><img class="carousel-img"
+                            src="images/placeholder1.png" alt="placeholder"></li>
+                    <li class="carousel-images-list-member"><img class="carousel-img" src="images/placeholder2.png"
+                            alt="placeholder"></li>
+                    <li class="carousel-images-list-member"><img class="carousel-img" src="images/placeholder3.png"
+                            alt="placeholder"></li>
+                </ul>
+            </div>
+            <div id="carousel-navigation">
+                <button id="current-button" class="carousel_button_slide"></button>
+                <button class="carousel_button_slide"></button>
+                <button class="carousel_button_slide"></button>
+            </div>
         </div>
         <div class="about-me">
-            <h2>About Me</h2>
-            <div class="scrollbox">
+            <div class="about-me-scrollbox">
+                <h2>About Me</h2>
                 <h3>Who?</h3>
-                <p>Lorem ipsum dolor sit huffing glue, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                <p>Lorem ipsum dolor sit huffing glue, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris
                     nisi
-                    ut aliquip ex ea commodo lorem ipusum consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nutella peanut butter. Excepteur Frank sint occaecat cupidatat
+                    ut aliquip ex ea commodo lorem ipusum consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate
+                    velit esse cillum dolore eu fugiat nutella peanut butter. Excepteur Frank sint occaecat
+                    cupidatat
                     non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <h3>What?</h3>
-                <p>While consuming glue I found a magical rat the told me the secrets to communicating on the internet.
+                <p>While consuming glue I found a magical rat the told me the secrets to communicating on the
+                    internet.
                     As
                     such, I practiced and learned how to communicate via lorem ipusum. I'm only interested in other
                     individuals who are capable of communicating with me via the rat-language. I also found that the
@@ -41,6 +61,17 @@
                     rats also havea taste for nutella and peanut butter. Looks like Frank's web person wants me to
                     leave,
                     bye!
+                </p>
+                <h3>I need more space</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta animi voluptatum exercitationem
+                    tenetur in expedita sit amet molestias saepe architecto iusto quod omnis numquam nam rerum
+                    mollitia
+                    recusandae, obcaecati alias eum. Quo corrupti recusandae saepe nemo molestias numquam voluptates
+                    similique neque, accusantium cumque porro dicta unde aperiam veritatis sequi incidunt a
+                    dignissimos
+                    fuga. Nesciunt nulla delectus inventore dicta et sunt quidem natus vero officiis molestias quis
+                    minima doloribus eius architecto rem at quos suscipit, quod earum, consequuntur in doloremque
+                    est.
                 </p>
             </div>
         </div>
@@ -55,6 +86,7 @@
             <a href="contactme.html">Contact Me</a>
         </nav>
     </footer>
+    <script src="scripts/carousel.js"></script>
 </body>
 
 </html>

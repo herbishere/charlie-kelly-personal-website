@@ -74,64 +74,10 @@ section {
     margin: auto;
 }
 
-/* Content Style - Home */
-
-#home-content .images {
-    text-align: right;
-}
-
-#home-content .about-me {
-    background: #f2b632;
-    color: #252839;
-    width: 320px;
-    height: 320px;
-    justify-items: center;
-    align-items: left;
-    overflow: scroll;
-    padding: 5px 15px 5px 15px;
-}
-
-/* Content Style - Contact Me */
-
-#contactme-content {
-    display: block;
-    text-align: center;
-}
-
-#contactme-content form {
-    display: inline-block;
-    width: 80%;
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
-#contactme-content .input {
-    width: 80%;
-}
-
-#contactme-content .input-message {
-    width: 100%;
-    height: 150px;
-    resize: none;
-}
-
-#contactme-content .input-submit {
-    float: right;
-}
-
 @media screen and (max-width: 1080px) {
     section {
         display: block;
-        min-height: 256px; 
-    }
-    #home-content .images {
-        text-align: center;
-    }
-    #home-content .about-me {
-        margin-left:auto;
-        margin-right: auto;
+        min-height: 256px;
     }
 }
 
