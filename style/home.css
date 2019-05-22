@@ -44,11 +44,12 @@
     z-index: 2;
     display: flex;
     justify-content: center;
-    padding: 5px 0;
 }
 
-#home-content .carousel-navigation {
-    padding: 0 0;
+#home-content .button-slide-selection {
+    position: absolute;
+    bottom: 20px;
+    right: 0%;
 }
 
 #home-content .carousel_button_slide {
@@ -75,6 +76,18 @@
     color:white;
     width: 40px;
     margin: 0 0;
+}
+
+#home-content #button-pause {
+    width: 25px;
+}
+
+#home-content .inactive {
+    opacity: 0.7;
+}
+
+#home-content .active {
+    opacity: 0.8;
 }
 
 #home-content .about-me-scrollbox {
