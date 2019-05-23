@@ -19,37 +19,53 @@
         </nav>
     </header>
     <section id="contactme-content">
-        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
-            method="post">
-            <fieldset>
-                <legend>Insert Information</legend>
+        <div class="form-container">
+            <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+                method="post">
                 <fieldset>
-                    <label>First Name:<br>
-                        <input class="input input-name" type="text" name="firstName" maxlength="100"
-                            placeholder="Insert Name" required>
-                    </label><br>
-                    <label>Last Name:<br>
-                        <input class="input input-name" type="text" name="lastName" maxlength="100"
-                            placeholder="Insert Last Name" required>
-                    </label>
+                    <legend>Insert Information</legend>
+                    <fieldset>
+                        <label>First Name:<br>
+                            <input class="input input-name" type="text" name="firstName" maxlength="100"
+                                placeholder="Insert Name" required>
+                        </label><br>
+                        <label>Last Name:<br>
+                            <input class="input input-name" type="text" name="lastName" maxlength="100"
+                                placeholder="Insert Last Name" required>
+                        </label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <label>E-mail:<br>
+                            <input class="input input-email" type="email" name="email" maxLength="100"
+                                placeholder="username@example.com" required>
+                        </label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <label>Message:<br>
+                            <textarea class="input input-message" name="message" placeholder="Insert Message Here..."
+                                maxLength="512"></textarea>
+                        </label>
+                    </fieldset>
+                    <input class="input-submit" type="submit" value="Submit">
                 </fieldset>
-                <br>
-                <fieldset>
-                    <label>E-mail:<br>
-                        <input class="input input-email" type="email" name="email" maxLength="100"
-                            placeholder="username@example.com" required>
-                    </label>
-                </fieldset>
-                <br>
-                <fieldset>
-                    <label>Message:<br>
-                        <textarea class="input input-message" name="message" placeholder="Insert Message Here..."
-                            maxLength="512"></textarea>
-                    </label>
-                </fieldset>
-                <input class="input-submit" type="submit" value="Submit">
-            </fieldset>
-        </form>
+            </form>
+        </div>
+        <div class="social-media-container">
+            <h3>Social Media</h3>
+            <div class="social-media-links">
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://twitter.com/"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/"><img src="images/icon_linkedin.png" alt="LinkedIn"></a></li>
+                    <li><a href="https://www.github.com/"><img src="images/icon_github.png" alt="GitHub"></a></li>
+                    <li><a href="https://www.youtube.com/"><img src="images/icon_youtube.png" alt="YouTube"></a></li>
+                    <li><a href="https://itsalwayssunny.fandom.com/wiki/Charlie_Kelly"><img src="images/icon_fandom.png"
+                                alt="Fandom"></a></li>
+                </ul>
+            </div>
+        </div>
     </section>
     <footer>
         <a href="#top">Go to Top</a>

@@ -1,6 +1,11 @@
 /* Content Style - Contact Me */
 
 #contactme-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+#contactme-content .form-container {
     display: block;
     text-align: center;
 }
@@ -26,4 +31,45 @@
 
 #contactme-content .input-submit {
     float: right;
+}
+
+#contactme-content .social-media-container {
+    padding: 10px;
+    background: #dedede;
+    border: 2px groove black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contactme-content .social-media-container h3 {
+    text-decoration: underline;
+}
+
+#contactme-content img {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#contactme-content img:hover {
+    opacity: 0.8;
+}
+
+#contactme-content ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    /* learned from https://www.w3schools.com/cssref/css3_pr_columns.asp */
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+@media screen and (max-width: 720px) {
+    #contactme-content {
+        display: block;
+    }
+
+    #contactme-content .social-media-container {
+        margin-top: 25px;
+    }
 }
