@@ -91,8 +91,8 @@
 }
 
 #home-content .about-me-scrollbox {
-    background: #f2b632;
-    color: #252839;
+    background: #13521d;
+    color: #b5b5b7;
     min-width: 320px;
     width: 80%;
     max-width: 630px;
@@ -102,6 +102,11 @@
     align-items: left;
     overflow: scroll;
     padding: 5px 15px 5px 15px;
+}
+
+#home-content .about-me-scrollbox a {
+    text-transform: uppercase;
+    color: #b5b5b7;
 }
 
 @media screen and (max-width: 1080px) {

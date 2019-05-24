@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: #252839;
+    background: #13521d;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100%;
     margin: 0;
@@ -32,7 +32,7 @@ header a {
 }
 
 header #logo {
-    color: #f2b632;
+    color: rgba(46,192,79,1);
     font-size: 75px;
 }
 
