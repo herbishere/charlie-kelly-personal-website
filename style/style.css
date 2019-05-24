@@ -1,6 +1,13 @@
+html {
+    height: 100%;
+}
+
 body {
     background: #252839;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Style */
@@ -63,15 +70,17 @@ header a:hover {
 /* Content Style */
 
 section {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
     background: #b5b5b7;
     padding: 20px 20px 20px 20px;
     max-width: 80%;
-    min-height: 480px;
+    min-height: 75%;
     overflow: auto;
-    margin: auto;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 @media screen and (max-width: 1080px) {
@@ -84,6 +93,9 @@ section {
 /* Footer Style */
 
 footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background: #33383b;
     color: #b5b5b7;
     overflow: hidden;
