@@ -5,16 +5,22 @@
 #resume-content button {
     background-color: rgba(46, 192, 79, 1);
     border-color: #13521d;
-    color: #dedede;
+    color: white;
     padding: 10px 15px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
+}
+
+#resume-content button:hover {
+    opacity: 0.7;
 }
 
 #resume-content div {
     margin: 0 auto;
     padding: 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px #888888;
 }
 
 #resume-content .resume-links {

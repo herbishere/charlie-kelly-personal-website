@@ -4,12 +4,13 @@
 
 #projects-content #tableOfProjects {
     text-align: center;
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background: #dedede;
-    padding: 5px;
+    padding-bottom: 25px;
     margin: 0 auto;
     min-width: 30%;
+    box-shadow: 3px 3px 3px #888888;
 }
 
 #projects-content #tableOfProjects ul {
@@ -44,6 +45,7 @@ iframe {
     width: 100%;
     max-height: 480px;
     max-width: 640px;
+    border: 2px solid black;
     border-radius: 10px;
 }
 
@@ -57,6 +59,8 @@ iframe {
     border-radius: 10px;
     max-height: 480px;
     overflow: auto;
+    background: #ededed;
+    box-shadow: 2px 2px 2px #888888;
 }
 
 #projects-content .projects:nth-child(even){

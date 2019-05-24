@@ -21,26 +21,32 @@ header {
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid black;
+    box-shadow: 10px 10px 8px black;
+    grid-gap: 10px;
 }
 
 header a {
     text-decoration: none;
     text-align: center;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 2px black;
     padding: 10px;
+    border: 2px solid black;
     border-radius: 5px;
     line-height: 50px;
 }
 
 header #logo {
-    color: rgba(46,192,79,1);
+    color: rgba(46, 192, 79, 1);
     font-size: 75px;
-    text-shadow: 3px 3px black;
+    text-shadow: 3px 3px 3px black;
+    border: none;
 }
 
 header #navigation-header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
 
 header #navigation-header a {
@@ -49,10 +55,18 @@ header #navigation-header a {
     align-self: center;
 }
 
+header .current-page {
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black inset;
+    background: #51585d;
+}
+
 /* Change background of links when hovered over */
 
 header a:hover {
-    background-color: #33383b
+    background-color: #33383b;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black inset;
 }
 
 /* Change Header Fromat Depending on Window Size */
@@ -84,6 +98,9 @@ section {
     min-height: 75%;
     overflow: auto;
     margin: 0 auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: 5px 5px 5px black;
 }
 
 @media screen and (max-width: 1080px) {
@@ -93,17 +110,26 @@ section {
     }
 }
 
+.icon {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
 /* Footer Style */
 
 footer {
     position: relative;
     bottom: 0;
-    width: 100%;
     background: #33383b;
     color: #b5b5b7;
+    padding: 25px;
+    border-top: 2px solid black;
     overflow: hidden;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    direction: rtl;
 }
 
 footer a {

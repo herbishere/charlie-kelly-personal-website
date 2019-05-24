@@ -6,6 +6,8 @@
     height: 640px;
     width: 80%;
     margin-left: auto;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px #888888;
 }
 
 #home-content .carousel-images {
@@ -60,6 +62,7 @@
     border-radius: 5px;
     background: black;
     opacity: 0.4;
+    cursor: pointer;
 }
 
 #home-content .carousel_button_slide_current {
@@ -92,7 +95,10 @@
 
 #home-content .about-me-scrollbox {
     background: #13521d;
-    color: #b5b5b7;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 2px solid black;
+    border-radius: 5px;
     min-width: 320px;
     width: 80%;
     max-width: 630px;
@@ -102,11 +108,13 @@
     align-items: left;
     overflow: scroll;
     padding: 5px 15px 5px 15px;
+    box-shadow: 3px 3px 3px #888888;
 }
 
 #home-content .about-me-scrollbox a {
     text-transform: uppercase;
     color: #b5b5b7;
+    text-shadow: none;
 }
 
 @media screen and (max-width: 1080px) {
