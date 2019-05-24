@@ -5,6 +5,7 @@
 #projects-content #tableOfProjects {
     text-align: center;
     border: 5px solid black;
+    border-radius: 10px;
     background: #dedede;
     padding: 5px;
     margin: 0 auto;

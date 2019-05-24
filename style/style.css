@@ -12,6 +12,8 @@ body {
 
 /* Header Style */
 
+/* responsive headers based on https://www.w3schools.com/howto/howto_css_responsive_header.asp */
+
 header {
     background: #677077;
     text-transform: uppercase;
@@ -80,7 +82,6 @@ section {
     min-height: 75%;
     overflow: auto;
     margin: 0 auto;
-    vertical-align: middle;
 }
 
 @media screen and (max-width: 1080px) {
