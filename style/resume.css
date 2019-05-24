@@ -2,6 +2,16 @@
     grid-template-columns: none;
 }
 
+#resume-content button {
+    background-color: rgba(46, 192, 79, 1);
+    border-color: #13521d;
+    color: #dedede;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
 #resume-content div {
     margin: 0 auto;
     padding: 10px;
