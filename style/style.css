@@ -100,7 +100,8 @@ footer {
     background: #33383b;
     color: #b5b5b7;
     overflow: hidden;
-    padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 footer a {
