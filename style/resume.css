@@ -1,0 +1,17 @@
+#resume-content {
+    grid-template-columns: none;
+}
+
+#resume-content div {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#resume-content .resume-links {
+    text-align: center;
+}
+
+#resume-content .resume-info {
+    background: #dedede;
+    width: 50%;
+}
